@@ -1,5 +1,5 @@
 class Ninja {
-    constructor(nombre, salud){
+    constructor(nombre){
         this.nombre = nombre;
         this. salud = 0;
         this.velocidad = 3;
@@ -22,3 +22,4 @@ ninja1.sayName();
 ninja1.showStats();
 ninja1.drinkSake();
 ninja1.drinkSake();
+ninja1.showStats();
